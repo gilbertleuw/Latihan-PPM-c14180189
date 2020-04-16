@@ -14,5 +14,6 @@ hasil = 0;
 
   hitung(a, b){
     this.hasil = Math.pow(a,b);
+    return this.hasil;
     }
 }
