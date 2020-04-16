@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  a = 0;
+  b = 0;
+hasil = 0;
+
+ 
+
+  hitung(a, b){
+    this.hasil = Math.pow(a,b);
+    }
 }
